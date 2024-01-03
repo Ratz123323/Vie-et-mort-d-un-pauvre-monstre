@@ -1,0 +1,199 @@
+.htmlBase{
+    border: 10px solid green;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.htmlMort{
+    border: 10px solid red;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    border: solid;
+    border-radius: 20px;
+    border-width: 10px;
+}
+
+.argent{
+    border: solid;
+    border-radius: 5px;
+}
+
+ul#status li {
+    margin: 10px;
+}
+
+#titre {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+#titreMort{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* couleur de la boite en fonction de la vie du monstre */
+
+#monster_dead {
+    border-color:grey;
+}
+
+#monster_veryLow {
+    border-color: red;
+}
+
+#monster_low {
+    border-color: orange;
+}
+
+#monster_middle {
+    border-color: yellow;
+}
+
+#monster_hight {
+    border-color: rgb(0, 255, 0);
+}
+
+#monster_veryHight {
+    border-color: cyan;
+}
+
+
+/* largeur de la boite en fonction de l'argent du monstre */
+
+.dead{
+    border-width: 3px;
+    border-color: red;
+}
+
+.veryRich{
+    border-width: 20px;
+    border-color: gold;
+}
+
+.rich{
+    border-width: 10px;
+    border-color: gold;
+}
+
+.middle{
+    border-width: 5px;
+    border-color: gold;
+}
+
+.poor{
+    border-width: 1px;
+    border-color: gold;
+}
+
+
+#actionbox {
+    background-color: rgb(206, 255, 208);
+    border: 5px solid greenyellow;
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#actionboxMort {
+    background-color: rgb(255, 206, 206);
+    border: 5px solid red;
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#actionbox > p {
+    margin: 5px;
+    margin-left: 10px;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    margin-left: 300px;
+    padding: 0;
+}
+
+ul#status > li#pa{
+    margin-bottom: 200px;
+}
+
+.butt {
+    border-radius: 5px;
+    width: 75px;
+    height: 40px;
+    background-color: greenyellow;
+    margin: 8px;
+    border: 0;
+    border: solid;
+    border-width: 5px;
+    border-top-color: green;
+    border-right-color: rgb(1, 194, 1);
+    border-left-color: green;
+    border-bottom-color: rgb(1, 194, 1);
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.buttMort{
+    border-radius: 5px;
+    width: 75px;
+    height: 40px;
+    background-color: rgb(255, 47, 47);
+    margin: 8px;
+    border: 0;
+    border: solid;
+    border-width: 5px;
+    border-top-color: red;
+    border-right-color: rgb(194, 1, 1);
+    border-left-color: red;
+    border-bottom-color: rgb(194, 1, 1);
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+button:active {
+    box-shadow: 0 5px greenyellow;
+    transform: translateY(5px);
+}
+
+button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+img.monster{
+    margin-bottom: 10px;
+    margin-left: 300px;
+
+}
+
+#pa{
+    margin-bottom: 50px;
+}
+
+.hr{
+    border-color: greenyellow;
+}
+
+.hrMort{
+    border-color: rgb(255, 47, 47);
+}
